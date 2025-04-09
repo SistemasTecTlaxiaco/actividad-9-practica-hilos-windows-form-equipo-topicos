@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8DCF21A2-0A58-44C2-A43E-935C3203C18F}</ProjectGuid>
+    <ProjectGuid>{E57394E2-17F0-4101-AC44-1898AE842824}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ReservaHotel</RootNamespace>
     <AssemblyName>ReservaHotel</AssemblyName>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ReservaLibreria">
+      <HintPath>..\ReservaLibreria\bin\Debug\net8.0\ReservaLibreria.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,7 +49,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>

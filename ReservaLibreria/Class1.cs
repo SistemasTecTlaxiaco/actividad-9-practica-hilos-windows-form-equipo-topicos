@@ -1,9 +1,8 @@
-﻿namespace ReservaLibreria
-{
+﻿
    using System;
 using System.Collections.Generic;
 
-namespace ReservaLibrary
+namespace Reservalibreria
 {
     public class Reserva
     {
@@ -76,5 +75,4 @@ namespace ReservaLibrary
             return 0;
         }
     }
-}
 }
