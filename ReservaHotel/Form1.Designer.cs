@@ -59,6 +59,7 @@
             this.label1.Size = new System.Drawing.Size(41, 13);
             this.label1.TabIndex = 101;
             this.label1.Text = "Resrva";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnCalcularPreciototal
             // 
@@ -106,6 +107,7 @@
             this.lblPrecioTotal.Name = "lblPrecioTotal";
             this.lblPrecioTotal.Size = new System.Drawing.Size(160, 20);
             this.lblPrecioTotal.TabIndex = 96;
+            this.lblPrecioTotal.TextChanged += new System.EventHandler(this.lblPrecioTotal_TextChanged);
             // 
             // LbprecioTotal
             // 
@@ -115,6 +117,7 @@
             this.LbprecioTotal.Size = new System.Drawing.Size(60, 13);
             this.LbprecioTotal.TabIndex = 95;
             this.LbprecioTotal.Text = "Precio total";
+            this.LbprecioTotal.Click += new System.EventHandler(this.LbprecioTotal_Click);
             // 
             // txtPrecioNoche
             // 
@@ -122,6 +125,7 @@
             this.txtPrecioNoche.Name = "txtPrecioNoche";
             this.txtPrecioNoche.Size = new System.Drawing.Size(160, 20);
             this.txtPrecioNoche.TabIndex = 94;
+            this.txtPrecioNoche.TextChanged += new System.EventHandler(this.txtPrecioNoche_TextChanged);
             // 
             // LbPnoche
             // 
@@ -131,6 +135,7 @@
             this.LbPnoche.Size = new System.Drawing.Size(88, 13);
             this.LbPnoche.TabIndex = 93;
             this.LbPnoche.Text = "Precio por noche";
+            this.LbPnoche.Click += new System.EventHandler(this.LbPnoche_Click);
             // 
             // cmbEstado
             // 
@@ -140,6 +145,7 @@
             this.cmbEstado.Size = new System.Drawing.Size(188, 21);
             this.cmbEstado.TabIndex = 92;
             this.cmbEstado.Text = "Pendiente";
+            this.cmbEstado.SelectedIndexChanged += new System.EventHandler(this.cmbEstado_SelectedIndexChanged);
             // 
             // LbEstado
             // 
@@ -149,6 +155,7 @@
             this.LbEstado.Size = new System.Drawing.Size(40, 13);
             this.LbEstado.TabIndex = 91;
             this.LbEstado.Text = "Estado";
+            this.LbEstado.Click += new System.EventHandler(this.LbEstado_Click);
             // 
             // dtpFechaFin
             // 
@@ -156,6 +163,7 @@
             this.dtpFechaFin.Name = "dtpFechaFin";
             this.dtpFechaFin.Size = new System.Drawing.Size(200, 20);
             this.dtpFechaFin.TabIndex = 90;
+            this.dtpFechaFin.ValueChanged += new System.EventHandler(this.dtpFechaFin_ValueChanged);
             // 
             // dtpFechaInicio
             // 
@@ -163,6 +171,7 @@
             this.dtpFechaInicio.Name = "dtpFechaInicio";
             this.dtpFechaInicio.Size = new System.Drawing.Size(200, 20);
             this.dtpFechaInicio.TabIndex = 89;
+            this.dtpFechaInicio.ValueChanged += new System.EventHandler(this.dtpFechaInicio_ValueChanged);
             // 
             // Lbfechafin
             // 
@@ -172,6 +181,7 @@
             this.Lbfechafin.Size = new System.Drawing.Size(69, 13);
             this.Lbfechafin.TabIndex = 88;
             this.Lbfechafin.Text = "Fecha de Fin";
+            this.Lbfechafin.Click += new System.EventHandler(this.Lbfechafin_Click);
             // 
             // Lbfechainicio
             // 
@@ -181,6 +191,7 @@
             this.Lbfechainicio.Size = new System.Drawing.Size(79, 13);
             this.Lbfechainicio.TabIndex = 87;
             this.Lbfechainicio.Text = "Fecha de inicio";
+            this.Lbfechainicio.Click += new System.EventHandler(this.Lbfechainicio_Click);
             // 
             // txtIdHabitacion
             // 
@@ -189,6 +200,7 @@
             this.txtIdHabitacion.Size = new System.Drawing.Size(160, 20);
             this.txtIdHabitacion.TabIndex = 86;
             this.txtIdHabitacion.Text = "INGRESAR HABITACION";
+            this.txtIdHabitacion.TextChanged += new System.EventHandler(this.txtIdHabitacion_TextChanged);
             // 
             // Lbhabitacion
             // 
@@ -198,6 +210,7 @@
             this.Lbhabitacion.Size = new System.Drawing.Size(58, 13);
             this.Lbhabitacion.TabIndex = 85;
             this.Lbhabitacion.Text = "Habitacion";
+            this.Lbhabitacion.Click += new System.EventHandler(this.Lbhabitacion_Click);
             // 
             // txtIdUsuario
             // 
@@ -206,6 +219,7 @@
             this.txtIdUsuario.Size = new System.Drawing.Size(160, 20);
             this.txtIdUsuario.TabIndex = 84;
             this.txtIdUsuario.Text = "USUARIO";
+            this.txtIdUsuario.TextChanged += new System.EventHandler(this.txtIdUsuario_TextChanged);
             // 
             // Lbusuario
             // 
@@ -215,6 +229,7 @@
             this.Lbusuario.Size = new System.Drawing.Size(43, 13);
             this.Lbusuario.TabIndex = 83;
             this.Lbusuario.Text = "Usuario";
+            this.Lbusuario.Click += new System.EventHandler(this.Lbusuario_Click);
             // 
             // txtIdReserva
             // 
@@ -223,6 +238,7 @@
             this.txtIdReserva.Size = new System.Drawing.Size(160, 20);
             this.txtIdReserva.TabIndex = 82;
             this.txtIdReserva.Text = "INGRESAR RESERVA";
+            this.txtIdReserva.TextChanged += new System.EventHandler(this.txtIdReserva_TextChanged);
             // 
             // labelReserva
             // 
@@ -232,6 +248,7 @@
             this.labelReserva.Size = new System.Drawing.Size(47, 13);
             this.labelReserva.TabIndex = 81;
             this.labelReserva.Text = "Reserva";
+            this.labelReserva.Click += new System.EventHandler(this.labelReserva_Click);
             // 
             // Form1
             // 
